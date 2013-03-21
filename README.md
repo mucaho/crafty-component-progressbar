@@ -1,7 +1,7 @@
 crafty-component-progressbar
 ============================
 
-A progress bar component for the crafty JS framework.
+A progress bar component for the crafty JS framework. See ProgressBar.js for detailed documentation.
 
 Example
 

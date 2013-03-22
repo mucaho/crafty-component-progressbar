@@ -8,10 +8,10 @@ Example
 	//the loading screen which will be displayed while our assets load
 	Crafty.scene("Loading", function () {
 		Crafty.e("ProgressBar")
-			//public this .progressBar( String eventName, Number unitCount, Number maxValue, 
-			//	String emptyColor, String fullColor, Number initX, Number initY, Number initZ, 
-			//	Number totalWidth, Number totalHeight, String renderMethod )
-			.progressBar("LOADING_PROGRESS", 10, 100, "black", "white", 150, 140, 100, 100, 25, "DOM");
+			// public this .progressBar(String eventName, Number blockCount, Number maxValue, 
+			// String emptyColor, String filledColor, Number x, Number y, Number w, Number h, 
+			// Number z, String renderMethod )
+	    		.progressBar("LOADING_PROGRESS", 10, 100, "black", "white", 150, 140, 100, 25, 100, "DOM");
 		
 		Crafty.load(["<put your assets here>"],
 			function() {

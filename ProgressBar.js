@@ -29,7 +29,7 @@ Crafty.c("ProgressBar", {
 	* #.progressBar
 	* @comp ProgressBar
 	* @sign public this .progressBar(String eventName, Number blockCount, Number maxValue, 
-	* String emptyColor, String filledColor)
+	* String emptyColor, String filledColor, String renderMethod)
 	* @param eventName - String of the event to listen to. Trigger the event directly on the entity 
 	* the component gets applied to or trigger the event globally. The event object must be 
 	* a 0 <= Number <= maxValue representing the current progress.

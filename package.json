@@ -8,8 +8,12 @@
     },
     "licenses": [
         {
-            "type": "APACHE - 2.0",
-            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/mit-license.php"
+        },
+        {
+            "type": "GPL",
+            "url": "http://www.opensource.org/licenses/gpl-license.php"
         }
     ],
     "dependencies": {

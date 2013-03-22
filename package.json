@@ -1,6 +1,6 @@
 {
     "name": "ProgressBar",
-    "version": "1.2",
+    "version": "1.3",
     "title": "Display progress of a task using a bar.",
     "author": {
         "name": "mucaho",
@@ -10,17 +10,13 @@
         {
             "type": "MIT",
             "url": "http://www.opensource.org/licenses/mit-license.php"
-        },
-        {
-            "type": "GPL",
-            "url": "http://www.opensource.org/licenses/gpl-license.php"
         }
     ],
     "dependencies": {
         "Crafty": "newest version"
     },
     "description": "A progress bar component for the crafty JS framework. See ProgressBar.js for detailed documentation.",
-    "jsfiddle": "http://jsfiddle.net/4Guj4/5/embedded/",
+    "jsfiddle": "http://jsfiddle.net/4Guj4/9/embedded/",
     "keywords": [
         "crafty",
         "component"

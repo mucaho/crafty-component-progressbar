@@ -8,9 +8,9 @@ Example
 	//the loading screen which will be displayed while our assets load
 	Crafty.scene("Loading", function () {
 		Crafty.e("ProgressBar")
-			// public this .progressBar(String eventName, Number blockCount, Number maxValue, 
-			// String emptyColor, String filledColor, Number x, Number y, Number w, Number h, 
-			// Number z, String renderMethod )
+			// public this .progressBar( String eventName, Number blockCount, Number maxValue, 
+			// 	String emptyColor, String filledColor, Number x, Number y, Number w, Number h, 
+			// 	Number z, String renderMethod )
 	    		.progressBar("LOADING_PROGRESS", 10, 100, "black", "white", 150, 140, 100, 25, 100, "DOM");
 		
 		Crafty.load(["<put your assets here>"],

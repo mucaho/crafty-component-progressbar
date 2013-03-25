@@ -14,9 +14,9 @@ Crafty.scene("Loading", function () {
     
     Crafty.e("2D, ProgressBar")
         .attr({ x: 150, y : 140, w: 100, h: 25, z: 100 })
-        // public this .progressBar(String eventName, Number blockCount, Number maxValue,
-        //    String emptyColor, String filledColor, String renderMethod)
-        .progressBar("LOADING_PROGRESS", 10, 100, "black", "white", "DOM");
+        // this .progressBar(String eventName, Number blockCount, Number maxValue, 
+        // Boolean flipDirection, String emptyColor, String filledColor, String renderMethod)
+        .progressBar("LOADING_PROGRESS", 10, 100, false, "black", "white", "DOM");
     
     Crafty.load(["<put your assets here>"],
         function() {

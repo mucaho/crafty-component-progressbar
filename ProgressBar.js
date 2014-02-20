@@ -19,8 +19,8 @@ Crafty.c("ProgressBar", {
 	/**@
 	* #.updateBarProgress
 	* @comp ProgressBar
-	* @sign public void .updateBarProgress(Number currentProgress)
-	* @param currentProgress - The current progress. The value must be a 0 <= number <= maxValue 
+	* @sign public this .updateBarProgress(Number currentValue)
+	* @param currentValue - The current progress. The value must be a 0 <= number <= maxValue 
 	* representing the current progress.
 	* @return this - The current entity for chaining.
 	*

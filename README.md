@@ -19,6 +19,7 @@ Example
 		.attr({ x: 150, y : 140, w: 100, h: 25, z: 100 })
 		// public this .progressBar(Number maxValue, Boolean flipDirection, String emptyColor, String filledColor)
 		.progressBar(100, false, "blue", "green")
+		// public void .updateBarProgress(Number currentValue)
 		.updateBarProgress(30);
     </script>
   </body>

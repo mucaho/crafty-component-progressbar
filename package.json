@@ -1,6 +1,6 @@
 {
     "name": "ProgressBar",
-    "version": "2.0",
+    "version": "2.1",
     "title": "Display progress of a task using a bar.",
     "author": {
         "name": "mucaho",

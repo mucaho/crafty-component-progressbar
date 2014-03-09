@@ -2,7 +2,7 @@ crafty-component-progressbar
 ============================
 
 A progress bar component for the [CraftyJS](http://craftyjs.com/) HTML5 game engine.  
-See **ProgressBar.js** for detailed documentation or **example_progressbar.html** for the complete example.
+See [ProgressBar.js](ProgressBar.js) for detailed documentation or [example_progressbar.html](example_progressbar.html) for the complete example.
 
 Example
 ```javascript

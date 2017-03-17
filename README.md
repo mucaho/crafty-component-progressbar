@@ -1,4 +1,4 @@
-crafty-component-progressbar
+Crafty Component Progressbar
 ============================
 
 A progress bar component for the [CraftyJS](http://craftyjs.com/) HTML5 game engine.  
